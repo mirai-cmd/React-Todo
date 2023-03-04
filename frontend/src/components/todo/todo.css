@@ -1,0 +1,14 @@
+.todoItem{
+    background-color: white;
+    width: 24rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todoItem > button{
+    height: 2rem;
+    width: 2rem;
+}

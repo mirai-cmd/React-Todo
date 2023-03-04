@@ -3,4 +3,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 3rem;
+    margin-top: 10rem;
+    padding: 2rem 0 2rem 0;
+}
+.todoTitle{
+    font-size: 3rem;
+}
+.inputWrapper > input{
+    width: 20rem;
+    height: 4rem;
+    padding-left: 1rem;
+}
+.inputWrapper > button{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: rgb(45, 158, 228);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.inputWrapper > button:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.5s;
+}
+.inputWrapper > input::placeholder{
+    font-size: 1rem;
+}
+.todoList{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
